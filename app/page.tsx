@@ -10,6 +10,7 @@ import DropdownExample from '@/components/DropDown/DropdownExample';
 import DatePickerExample from '@/components/DatePicker/DatePickerExample';
 import ButtonExample from '@/components/Button/ButtonExample'
 import TooltipExample from '@/components/Tooltip/TooltipExample'
+import VideoPlayerExample from '@/components/VideoPlayer/VideoPlayerExample';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -24,6 +25,7 @@ export default function Home() {
     <DatePickerExample />
     <ButtonExample />
     <TooltipExample />
+    <VideoPlayerExample />
     </>
   );
 }
