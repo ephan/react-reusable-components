@@ -13,6 +13,7 @@ import TooltipExample from '@/components/Tooltip/TooltipExample'
 import VideoPlayerExample from '@/components/VideoPlayer/VideoPlayerExample';
 import ImageCarousel from '@/components/Carousel/ImageCarousel';
 import { ImageCarouselExample } from '@/components/Carousel/ImageCarouselExample';
+import AutocompleteExample from '@/components/Autocomplete/AutocompleteExample';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,6 +22,7 @@ export default function Home() {
 
   return (
     <>
+    <AutocompleteExample />
     <ImageCarouselExample />
     <TableExample />
     <CardExample />
